@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zephyr Music</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        header {
+            /* background-color: #f2f2f2; */
+            text-align: center;
+        }
+        .navbar-nav {
+            float: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <!-- Header Img -->
+        <button style="background-color: white; border: 0" onclick="window.location='index.html'">
+            <img src="images/logo2.JPG" alt="logo img" class="img-circle" >
+
+        </button>
+    </header>
+
+    <!-- Menu Nav bar -->
+    <nav class="navbar navbar-default" style="text-align: center;">
+        <ul class="nav navbar-nav">
+            <li role="presentation"><a href="about.html" role="menuitem" tabindex="-1">ABOUT</a></li>
+            <li role="presentation"><a href="discography.html" role="menuitem" tabindex="-1">DISCOGRAPHY</a></li>
+            <li role="presentation"><a href="live.html" role="menuitem" tabindex="-1">LIVE SESSION</a></li>
+            <li role="presentation"><a href="contact.html" role="menuitem" tabindex="-1">CONTACT</a></li>
+        </ul>
+    </nav>
+
+   <div class="container">
+       <!-- 1행 -->
+        <div class="row">
+            <!-- Bootstrap의 그리드 시스템은 한 row당 12칸을 Max로 나뉜다.
+                 한 row class에서 원하는 비율을 12기준으로 작업한다.
+                ex) 화면을 3분할 할 경우 clo-sm-4 * 3 해준다. -->
+            <!-- 2/12 비율 + 여백 1/12 추가 -->
+            <div class="col-sm-2 col-sm-offset-1">
+                <br><br><br>
+                <p style="font-size: 30px;">
+                    zephyr <br>
+                    조진성 <br>
+                   
+                </p>
+                <hr>
+                <p style="font-size: 20px;">
+                    Producer <br>
+                    Composer <br>
+                    Guitarist
+                </p>    
+                <br>
+            </div>
+            <!-- 9/12 비욜 -->
+            <div class="col-sm-9">
+                <img class="img-responsive" src="images/myImages/14.jpg" alt="aboutImg01" >
+            </div>
+        </div>
+        <hr>
+        <!-- 2행 -->
+        <div class="row">
+            <div class="col-sm-9">
+                <img class="img-responsive" src="images/myImages/16.jpg" alt="aboutImg02">
+            </div>
+            <div class="col-sm-3">
+                <br><br><br>
+                <p style="font-size: 28px;">
+                    AUDIO GEAR
+                </p>
+                <hr>
+                <p style="font-size: 20px;">
+                    ableton live 10 <br>
+                    Universal Audio Apollo Twin<br>
+                    Adam A5X<br>
+                    Sennheiser-HD600<br>
+                    Blue Spark
+                </p>
+            </div>
+        </div>
+
+        <hr>
+        <!-- 3행 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <br><br><br><br><br><br>
+                    <p style="font-size: 28px;">
+                        MUSICAL
+                        INSTRUMENTS
+                    </p>
+                    <hr>
+                    <p style="font-size: 20px;">
+                        Tomanderson_Droptop<br>
+                        Martin D-28<br>
+                        Sadowsky R1<br>
+                        Kemper Profiling<br>
+                        Ableton Push<br>
+                        Line6 M9
+                    </p>
+                </div>
+                <div class="col-sm-9">
+                    <img src="images/myImages/15.jpg" alt="aboutImg03" width="90%" height="90%">
+                </div>
+            </div>
+        </div>
+
+
+   </div>
+   <hr>
+   <!-- div2(sns link) -->
+   <div class="container" style="text-align: center;">
+        <button type="button" class="btn btn-primary" style="background-color: white; border:0" onclick="window.open('http://instagram.com/zephyr_2ndroof')" >
+            <img src="icons/instagram.svg" alt="insta" style="width: 30%; height: 20%;">
+        </button>    
+        <button type="button" class="btn btn-primary" style="background-color: white; border:0" onclick="window.open('https://www.facebook.com/taedol2')" >
+            <img src="icons/facebook.svg" alt="FB" style="width: 30%; height: 20%;">
+        </button>
+        <button type="button" class="btn btn-primary" style="background-color: white; border:0" onclick="window.open('https://youtube.com/channel/UCt8yabn8Y0JW1BDy-EKNjIw')" >
+            <img src="icons/youtube.svg" alt="youtube" style="width: 30%; height: 20%;">
+        </button>
+   </div>
+   <hr>
+   <!-- footer -->
+   <footer>
+       <div class="container" style="text-align: center; background-color: black; padding: 20px;">
+            <span style="color: white;">
+                Copyright ⓒ 2020 zephyr RECORDS. All rights reserved. Designed by zephyr <br>
+                E-mail : bbang1424@naver.com | Tel : +82-10-6268-9250 <br>
+            </span>
+       </div>
+   </footer>
+   <hr>
+</body>
+</html>

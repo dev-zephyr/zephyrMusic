@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zephyr Music</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        header {
+            /* background-color: #f2f2f2; */
+            text-align: center;
+        }
+        .navbar-nav {
+            float: none;
+            display: inline-block;
+        }
+    </style>
+
+</head>
+<body>
+   
+    <!-- header -->
+    <header>
+        <button style="border: 0; background-color: white;" onclick="window.location='index.html'">
+            <img src="images/logo2.JPG" alt="logo" class="img-circle">
+        </button>
+    </header>
+
+    <!-- Menu navbar -->
+    <nav class="navbar navbar-default" style="text-align: center;">
+        <ul class="nav navbar-nav">
+            <li role="presentation"><a href="about.html" role="menuitem" tabindex="-1">ABOUT</a></li>
+            <li role="presentation"><a href="discography.html" role="menuitem" tabindex="-1">DISCOGRAPHY</a></li>
+            <li role="presentation"><a href="live.html" role="menuitem" tabindex="-1">LIVE SESSION</a></li>
+            <li role="presentation"><a href="contact.html" role="menuitem" tabindex="-1">CONTACT</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- div1 -->
+    <!-- 옆으로 넘겨볼수있는 사진 -->
+    <hr>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/myImages/07.png" alt="img01" style="width: 100%;">
+                </div>
+                <div class="item">
+                    <img src="images/myImages/04.jpg" alt="img02" style="width: 100%;">
+                </div>
+                <div class="item">
+                    <img src="images/myImages/01.jpg" alt="img03">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only"></span>
+            </a>
+        </div>
+    </div>
+
+    <hr>
+    <br>
+    <br>
+    <br>
+    <!-- div2(sns link) -->
+    <!-- 인스타, 페북, 유튭링크 -->
+    <div class="container" style="text-align: center;">
+        <button type="button" class= "btn btn-primary" style= "background-color: white; border: 0;" onclick="window.open('http://instagram.com/zephyr_2ndroof')">
+            <img src="icons/instagram.svg" alt="insta" style="width: 30%; height: 20%;">
+        </button>
+        <button type="button" class="btn btn-primary" style="background-color: white; border: 0;" onclick="window.open('https://www.facebook.com/taedol2')">
+            <img src="icons/facebook.svg" alt="FB" style="width: 30%; height: 20%;">
+        </button>
+        <button type="button" class="btn btn-primary" style="background-color: white; border:0" onclick="window.open('https://youtube.com/channel/UCt8yabn8Y0JW1BDy-EKNjIw')">
+            <img src="icons/youtube.svg" alt="youtube" style="width: 30%; height: 20%">
+        </button>
+    </div>
+    <hr>
+    <!-- footer -->
+    <!-- 카피라이트, 메일 등등등 -->
+    <footer>
+        <div class="container" style="text-align: center; background-color: black; padding: 20px;">
+            <span style="color: white;">
+                Copyright ⓒ 2020 zephyr RECORDS. All rights reserved. Designed by zephyr <br>
+                E-mail : bbang1424@naver.com | Tel : +82-10-6268-9250 <br>
+            </span>
+        </div>
+    </footer>
+    <hr>
+</body>
+</html>
